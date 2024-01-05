@@ -1,0 +1,24 @@
+.board {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  width: 45rem;
+  max-width: 100%;
+
+  background-color: #222222;
+}
+
+.board > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 5rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  border: 1px solid #ffffff;
+}
